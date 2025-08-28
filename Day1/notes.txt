@@ -1,0 +1,44 @@
+frontend(client side) => API => backend(server side) => database
+
+HTTP (GET, POST, PUT, DELETE)   
+
+client(browser)(frontend) => HTTP request => server(backend)
+
+client(browser)(frontend) <= HTTP response <= server(backend)
+
+database => ACID
+
+Django => Python Backend Framework
+
+
+      MVT <= Django => DRF
+
+- MVT
+
+Model => Database (ORM)
+    || 
+View => Logic
+    ||
+Template (HTML)
+
+- DRF (Django REST framework)
+
+End Points
+
+HTTP (GET, POST, PUT, DELETE)   
+
+CRUD => Create, Read, Update, Delete
+
+---------------------------------------------
+
+project => group of apps
+
+commands:
+
+django-admin startproject itinews
+
+python manage.py startapp blogs
+
+note: add app to INSTALLED_APPS in settings.py
+
+python manage.py runserver

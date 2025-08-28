@@ -1,0 +1,26 @@
+                                      Day 1 Task: Personal Profile Page
+
+Description:
+Create a Django view that displays a simple personal profile page using function-based views,
+URL routing, context data, HTML templates, and static CSS/JavaScript.
+
+Requirements:
+
+    -Create a new view called profile that:
+
+    -Passes a name, short bio, and a list of skills to the template.
+
+    -Add a URL route /profile/ for the new view.
+
+    -Create a template (profile.html) that:
+
+    -Displays the name and bio using Django template variables.
+
+    -Renders the list of skills using a {% for %} loop.
+
+    -Includes a "Say Hello" button that triggers a JavaScript alert.
+
+    -Use an external CSS file to style the page (e.g., change background color, text styles).
+
+    -Include the JavaScript file using Django’s {% static %} template tag.
+
